@@ -1,3 +1,14 @@
+## 3.2.1
+
+- Use `java.security.SecureRandom` instead of `java.util.Random` to ensure the 
+`ActivityRequest` identifier is generated in a cryptographically strong fasion.
+
+## 3.2.0
+
+- Raises minimum Dart version to 2.17 and Flutter version to 3.0.0.
+- Removes deprecated `android.enableR8` property from gradle properties.
+- Updates the example application to request permissions when start listening to the position stream.
+
 ## 3.1.8
 
 - Ensures that when Google mobile services are globally excluded as a dependency to automatically fallback to the Android LocationManager.
